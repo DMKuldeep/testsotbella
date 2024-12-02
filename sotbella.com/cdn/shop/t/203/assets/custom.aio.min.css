@@ -1,0 +1,341 @@
+/*
+Generated time: June 11, 2024 01:52
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+.blocks-text {
+    margin-left: 5%
+}
+
+label.h5.link-list-heading {
+    margin-top: 41px
+}
+
+@media only screen and (max-width:600px) {
+    label.h5.link-list-heading {
+        margin-top: 20px
+    }
+}
+
+aistylist {
+    visibility: visible;
+    display: inline-block;
+    background-color: #000000b8;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px
+}
+
+@media screen and (max-width:787px) {
+    .product-block.product-block__title .h1 {
+        font-size: 14px !important
+    }
+}
+
+.mb-16 {
+    letter-spacing: 0 !important
+}
+
+.faq-item {
+    --font-button-letter-spacing: 0em !important
+}
+
+@media screen and (max-width:600px) {
+    .btn:not(.video-play):not([data-shopify-xr]) {
+        font-size: 15px !important
+    }
+}
+
+.main-order-1 .customer.order.container * {
+    box-sizing: border-box
+}
+
+.main-order-1 .customer.order.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto
+}
+
+.main-order-1 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.main-order-1 .flex-1 {
+    flex: 1
+}
+
+.main-order-1 .mb-4 {
+    margin-bottom: 1rem
+}
+
+.main-order-1 .address-box {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px
+}
+
+.main-order-1 .product-image-container {
+    margin-right: 20px;
+    text-align: center
+}
+
+.main-order-1 .product-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px
+}
+
+.main-order-1 .order-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px
+}
+
+.main-order-1 .order-details td,
+.main-order-1 .order-details th {
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    text-align: center
+}
+
+@media (max-width:768px) {
+    .main-order-1 .flex {
+        flex-direction: column
+    }
+    .main-order-1 .product-image-container {
+        margin-right: 0;
+        margin-bottom: 20px
+    }
+    .main-order-1 .grid {
+        grid-template-columns: 1fr
+    }
+}
+
+@media (max-width:600px) {
+    .main-order-1 .mb-4 {
+        margin-bottom: .5rem
+    }
+    .main-order-1 .address-box {
+        padding: 10px
+    }
+    .main-order-1 .order-details td,
+    .main-order-1 .order-details th {
+        padding: 8px
+    }
+    .main-order-1 #ColumnProduct {
+        padding-right: 0
+    }
+    .main-order-1 .grid.grid-cols-2 {
+        padding-left: 10%
+    }
+}
+
+@media (max-width:600px) {
+    .main-order-1 .container>* {
+        grid-column: 1
+    }
+}
+
+.customer tbody td:first-of-type {
+    padding-top: 24px;
+    font-weight: 700
+}
+
+.grid.grid-cols-2 {
+    padding-top: 10px;
+    margin-left: -5% !important;
+    /*margin-right:-4%!important;*/
+}
+
+.account-return-link {
+    font-weight: 600
+}
+
+@media (max-width:600px) and (max-width:787px) and (max-width:1024px) {
+    .account-return-link {
+        font-weight: 600
+    }
+    .grid.grid-cols-2 {
+        margin-left: -5% !important;
+        margin-right: -4% !important
+    }
+}
+
+.cloud-search-page-controls__filters-container {
+    display: inline;
+    margin-bottom: -76px
+}
+
+.cloud-search-page-controls__applied-filters {
+    margin-left: 8px;
+    margin-right: 8px;
+    order: 1;
+    text-align: left
+}
+
+.product-grid-actions.items-count-1 {
+    display: flex;
+    justify-content: end;
+    margin-top: -4px
+}
+
+.cloud-search-page-controls__filters-container>div {
+    margin-bottom: 16px
+}
+
+@media only screen and (max-width:600px) {
+    .cloud-search-page-controls__filters-container>div {
+        margin-bottom: 36px
+    }
+}
+
+@media only screen and (max-width:600px) {
+    p.n8k95w1._1fragemir.n8k95w2 {
+        display: none
+    }
+}
+
+.btn.btn--primary.btn--color-main-inverted.btn--inline.size--default.sm-size--default {
+    background-color: #000;
+    color: #fff
+}
+
+@media only screen and (max-width:767px) {
+    .mb-4 size--tiny sm-size--default {
+        margin-bottom: -18px
+    }
+}
+
+.mb-4 {
+    margin-bottom: -18px important
+}
+
+.mb-gutter {
+    margin-bottom: 0 !important
+}
+
+.card--traditional .card-body {
+    padding: 10px
+}
+
+.container .gridy-slider .grid.custom-gap>div {
+    padding-left: 10px !important;
+    padding-right: 10px !important
+}
+
+@media (min-width:768px) {
+    .container .gridy-slider .grid.custom-gap {
+        margin-left: -47px;
+        margin-right: -47px
+    }
+    .container .gridy-slider .grid.custom-gap>div {
+        padding-left: 15px !important;
+        padding-right: 10px !important
+    }
+}
+
+h1.h1 {
+    letter-spacing: inherit
+}
+
+.shopify-policy__container h4 {
+    margin-top: 50px !important;
+    text-align: justify;
+    letter-spacing: inherit;
+    font-size: 13px !important;
+    font-weight: 700
+}
+
+.shopify-policy__title {
+    text-align: justify
+}
+
+.shopify-policy__title {
+    text-align: center;
+    margin-top: 5%;
+    text-align: justify
+}
+
+.rte {
+    max-width: 65ch;
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+    text-transform: var(--font-body-text-transform);
+    letter-spacing: var(--font-body-letter-spacing);
+    margin-top: 21px
+}
+
+.shopify-policy__title {
+    text-align: center !important
+}
+
+:root {
+    --ideal-width: 1700px;
+    --container-inner-width: min(100vw - var(--container-margin)* 2, var(--ideal-width));
+    --font-body-family: Montserrat, sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 300;
+    --font-body-line-height: 1.6;
+    --font-body-letter-spacing: 0.06em;
+    --font-body-text-transform: none;
+    --font-heading-family: "Antique Olive", sans-serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 400;
+    --font-heading-line-height: 1.2;
+    --font-heading-letter-spacing: 0.0em !important;
+    --font-heading-text-transform: uppercase;
+    --font-subheader-family: var(--font-heading-family);
+    --font-subheader-style: var(--font-heading-style);
+    --font-subheader-weight: var(--font-heading-weight);
+    --font-subheader-text-transform: none;
+    --font-subheader-line-height: ;
+    --font-subheader-letter-spacing: 0.0em;
+    --font-announcement-family: var(--font-heading-family);
+    --font-announcement-style: var(--font-heading-style);
+    --font-announcement-weight: var(--font-heading-weight);
+    --font-announcement-text-transform: none;
+    --font-announcement-size: 12px;
+    --font-announcement-letter-spacing: 0.0em;
+    --font-button-family: var(--font-heading-family);
+    --font-button-style: var(--font-heading-style);
+    --font-button-weight: var(--font-heading-weight);
+    --font-button-text-transform: uppercase;
+    --font-button-size: 15px;
+    --font-button-letter-spacing: 0.11em;
+    --font-site-header-family: var(--font-body-family);
+    --font-site-header-style: var(--font-body-style);
+    --font-site-header-weight: var(--font-body-weight);
+    --font-site-header-text-transform: uppercase;
+    --font-site-header-size: 12px;
+    --font-site-header-letter-spacing: 0.2em;
+    --font-navigation-family: var(--font-body-family);
+    --font-navigation-style: var(--font-body-style);
+    --font-navigation-weight: var(--font-body-weight);
+    --font-navigation-text-transform: uppercase;
+    --font-navigation-size: 12px;
+    --font-navigation-line-height: 1.6;
+    --font-navigation-letter-spacing: 0.0em;
+    --font-badge-family: var(--font-body-family);
+    --font-badge-style: var(--font-body-style);
+    --font-badge-weight: var(--font-body-weight);
+    --font-badge-text-transform: uppercase;
+    --font-badge-size: 11px
+}
+
+.price__sale {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+.price__regular {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}

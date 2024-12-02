@@ -1,0 +1,61 @@
+<!doctype html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Razorpay Checkout</title>
+    <link rel="icon" href="data:;base64,=" />
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1,maximum-scale=1" />
+</head>
+
+<body></body>
+<script>
+    window.session_token = "CFBF5F2A51D21C5429F590A91613452DC76B5EA5E0A98A311990BDDD80312F892254D85B39ADE3BC2BC9C57C3005841BE04601860DEC9AC238F649C626FF55B09D26600C65BA400853C3B558695E961E179F9428E4CFB2F58BEA22F275174A5A9F2BB484EEFB0DBE";
+    try {
+        if (window.session_token.length > 14) {
+            var tokenString = "session_token=" + window.session_token;
+            history.pushState(null, "", location.search ? location.search + "&" + tokenString : "?" + tokenString)
+        }
+    } catch (o) {}
+
+    function markPerformance(o) {
+        performance && performance.mark && performance.mark(o)
+    }
+
+    function isModernBrowser() {
+        try {
+            return eval("Boolean?.(1)")
+        } catch (o) {}
+    }
+
+    function addScript(o, e) {
+        var r = document.createElement("script");
+        r.src = o.source + (e ? "?retry=1" : ""), e ? r.onerror = o.onError : (r.crossOrigin = "anonymous", r.onerror = function() {
+            addScript(o, !0)
+        }), r.onload = o.onLoad, document.head.appendChild(r)
+    }
+
+    function addAssets() {
+        markPerformance("add-asset-init");
+        var o = location.search.match("checkout_v2") && location.search.match(/build=(\w+)/),
+            e = "https://checkout.razorpay.com/v1/";
+        addScript({
+            source: (o ? "https://checkout-static-next.razorpay.com/build/" + o[1] + "/" : e) + "v2-entry" + (isModernBrowser() ? ".modern.js" : ".js"),
+            onError: function() {
+                const o = document.createElement("link");
+                o.rel = "stylesheet", o.href = e + "css/checkout.css", document.head.appendChild(o), addScript({
+                    source: e + "checkout-frame.js"
+                })
+            }
+        })
+    }
+    markPerformance("public-page-init");
+    var poly = [],
+        polyScript;
+    document.currentScript || poly.push("document.currentScript", "Promise", "Object.entries", "String.prototype.startsWith"), window.Promise && !window.Promise.allSettled && poly.push("Promise.allSettled"), (!window.Intl || window.navigator && window.navigator.userAgent && -1 !== window.navigator.userAgent.indexOf("KAIOS")) && poly.push("Intl.~locale.en|always"), poly.length ? addScript({
+        source: "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=" + encodeURIComponent(poly.join(",")),
+        onLoad: addAssets
+    }) : addAssets()
+</script>
+
+</html>

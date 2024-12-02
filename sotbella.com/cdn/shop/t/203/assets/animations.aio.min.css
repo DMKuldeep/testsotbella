@@ -1,0 +1,76 @@
+/*
+Generated time: June 11, 2024 06:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+html:not(.theme-editor) main .shopify-section:nth-child(n+2):not(.ignore-section-animation):not(.anim-custom-child) {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity .6s ease-in-out, transform .6s ease-in-out
+}
+
+main .section-anim-in:not(.ignore-section-animation):not(.anim-custom-child) {
+    opacity: 1 !important;
+    transform: translateY(0) !important
+}
+
+main .section-divider:nth-child(-n+2) {
+    opacity: 1 !important;
+    transform: translateY(0) !important
+}
+
+html:not(.theme-editor) main .shopify-section.anim-custom-child:nth-child(n+2) .custom-child-for-animation {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: opacity .6s ease-in-out, transform .6s ease-in-out
+}
+
+main .section-anim-in.anim-custom-child .custom-child-for-animation {
+    opacity: 1 !important;
+    transform: translateY(0) !important
+}
+
+@media (prefers-reduced-motion) {
+    main .shopify-section:nth-child(n+2) {
+        transition: opacity .8s ease-in-out, opacity .8s ease-in-out
+    }
+}
+
+.hotspot.animated:before {
+    animation: hotspot-blink 2s ease-in-out infinite both
+}
+
+.hotspot.animated:nth-child(2):before {
+    animation-delay: .2s
+}
+
+.hotspot.animated:nth-child(3):before {
+    animation-delay: .4s
+}
+
+.hotspot.animated:nth-child(4):before {
+    animation-delay: .6s
+}
+
+.hotspot.animated:nth-child(5):before {
+    animation-delay: .8s
+}
+
+.hotspot.animated:nth-child(6):before {
+    animation-delay: 1s
+}
+
+@keyframes hotspot-blink {
+    0% {
+        opacity: 1;
+        transform: scale(.6)
+    }
+    75% {
+        transform: scale(1.4);
+        opacity: 0
+    }
+    100% {
+        transform: scale(1.4);
+        opacity: 0
+    }
+}

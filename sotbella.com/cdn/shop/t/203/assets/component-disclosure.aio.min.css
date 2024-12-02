@@ -1,0 +1,36 @@
+/*
+Generated time: June 11, 2024 06:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+.disclosure {
+    position: relative
+}
+
+.disclosure__list-wrapper {
+    color: var(--footer-background);
+    background: var(--footer-foreground);
+    width: 100%;
+    padding: 16px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 100%;
+    transform: translateY(-1rem);
+    z-index: 2
+}
+
+.disclosure__list {
+    position: relative;
+    overflow-y: auto;
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    scroll-padding: 0.5rem 0;
+    max-height: 19rem;
+    max-width: 100%;
+    width: max-content
+}
+
+.disclosure__item {
+    position: relative
+}

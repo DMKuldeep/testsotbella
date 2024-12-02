@@ -1,0 +1,595 @@
+.blocks-text {
+    margin-left: 5%
+}
+
+label.h5.link-list-heading {
+    margin-top: 41px
+}
+
+@media only screen and (max-width: 600px) {
+    label.h5.link-list-heading {
+        margin-top: 20px
+    }
+}
+
+aistylist {
+    visibility: visible;
+    display: inline-block;
+    background-color: #000000b8;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px
+}
+
+@media screen and (max-width: 787px) {
+    .product-block.product-block__title .h1 {
+        font-size: 14px !important
+    }
+}
+
+.mb-16 {
+    letter-spacing: 0 !important
+}
+
+.faq-item {
+    --font-button-letter-spacing: 0em !important
+}
+
+@media screen and (max-width: 600px) {
+    .btn:not(.video-play):not([data-shopify-xr]) {
+        font-size: 15px !important
+    }
+}
+
+.main-order-1 .customer.order.container * {
+    box-sizing: border-box
+}
+
+.main-order-1 .customer.order.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto
+}
+
+.main-order-1 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+.main-order-1 .flex-1 {
+    flex: 1
+}
+
+.main-order-1 .mb-4 {
+    margin-bottom: 1rem
+}
+
+.main-order-1 .address-box {
+    box-shadow: 0 4px 6px #0000001a;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px
+}
+
+.main-order-1 .product-image-container {
+    margin-right: 20px;
+    text-align: center
+}
+
+.main-order-1 .product-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px
+}
+
+.main-order-1 .order-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px
+}
+
+.main-order-1 .order-details th,
+.main-order-1 .order-details td {
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    text-align: center
+}
+
+@media (max-width: 768px) {
+    .main-order-1 .flex {
+        flex-direction: column
+    }
+    .main-order-1 .product-image-container {
+        margin-right: 0;
+        margin-bottom: 20px
+    }
+    .main-order-1 .grid {
+        grid-template-columns: 1fr
+    }
+}
+
+@media (max-width: 600px) {
+    .main-order-1 .mb-4 {
+        margin-bottom: .5rem
+    }
+    .main-order-1 .address-box {
+        padding: 10px
+    }
+    .main-order-1 .order-details th,
+    .main-order-1 .order-details td {
+        padding: 8px
+    }
+    .main-order-1 #ColumnProduct {
+        padding-right: 0
+    }
+    .main-order-1 .grid.grid-cols-2 {
+        padding-left: 10%
+    }
+}
+
+@media (max-width: 600px) {
+    .main-order-1 .container>* {
+        grid-column: 1
+    }
+}
+
+.customer tbody td:first-of-type {
+    padding-top: 24px;
+    font-weight: 700
+}
+
+.grid.grid-cols-2 {
+    padding-top: 10px;
+    margin-left: -4% !important
+}
+
+.account-return-link {
+    font-weight: 600
+}
+
+@media (max-width: 600px) and (max-width: 787px) and (max-width: 1024px) {
+    .account-return-link {
+        font-weight: 600
+    }
+}
+
+.cloud-search-page-controls__filters-container {
+    display: inline;
+    margin-bottom: -76px
+}
+
+.cloud-search-page-controls__applied-filters {
+    margin-left: 8px;
+    margin-right: 8px;
+    order: 1;
+    text-align: left
+}
+
+.product-grid-actions.items-count-1 {
+    display: flex;
+    justify-content: end;
+    margin-top: -4px
+}
+
+.cloud-search-page-controls__filters-container>div {
+    margin-bottom: 16px
+}
+
+@media only screen and (max-width: 600px) {
+    .cloud-search-page-controls__filters-container>div {
+        margin-bottom: 36px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    p.n8k95w1._1fragemir.n8k95w2 {
+        display: none
+    }
+}
+
+.btn.btn--primary.btn--color-main-inverted.btn--inline.size--default.sm-size--default {
+    background-color: #000;
+    color: #fff
+}
+
+@media only screen and (max-width: 767px) {
+    .mb-4 size--tiny sm-size--default {
+        margin-bottom: -18px
+    }
+}
+
+.mb-4 {
+    margin-bottom: -18px important
+}
+
+.mb-gutter {
+    margin-bottom: 0 !important
+}
+
+.card--traditional .card-body {
+    padding: 10px
+}
+
+.container .gridy-slider .grid.custom-gap>div {
+    padding-left: 10px !important;
+    padding-right: 10px !important
+}
+
+@media (min-width: 768px) {
+    .container .gridy-slider .grid.custom-gap {
+        margin-left: -47px;
+        margin-right: -47px
+    }
+    .container .gridy-slider .grid.custom-gap>div {
+        padding-left: 15px !important;
+        padding-right: 10px !important
+    }
+}
+
+h1.h1 {
+    letter-spacing: inherit
+}
+
+.shopify-policy__container h4 {
+    margin-top: 50px !important;
+    text-align: justify;
+    letter-spacing: inherit;
+    font-size: 13px !important;
+    font-weight: 700
+}
+
+.shopify-policy__title {
+    text-align: justify
+}
+
+.shopify-policy__title {
+    text-align: center;
+    margin-top: 10%;
+    text-align: justify
+}
+
+@media only screen and (min-width: 768px) .shopify-policy__body h4 {
+    font-size: 13px !important;
+    font-weight: 700
+}
+
+.rte {
+    max-width: 65ch;
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+    text-transform: var(--font-body-text-transform);
+    letter-spacing: var(--font-body-letter-spacing);
+    margin-top: 21px
+}
+
+.shopify-policy__title {
+    text-align: center !important
+}
+
+:root {
+    --ideal-width: 1700px;
+    --container-inner-width: min( 100vw - var(--container-margin) * 2, var(--ideal-width));
+    --font-body-family: Montserrat, sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 300;
+    --font-body-line-height: 1.6;
+    --font-body-letter-spacing: .06em;
+    --font-body-text-transform: none;
+    --font-heading-family: "Antique Olive", sans-serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 400;
+    --font-heading-line-height: 1.2;
+    --font-heading-letter-spacing: 0em !important;
+    --font-heading-text-transform: uppercase;
+    --font-subheader-family: var(--font-heading-family);
+    --font-subheader-style: var(--font-heading-style);
+    --font-subheader-weight: var(--font-heading-weight);
+    --font-subheader-text-transform: none;
+    --font-subheader-line-height: ;
+    --font-subheader-letter-spacing: 0em;
+    --font-announcement-family: var(--font-heading-family);
+    --font-announcement-style: var(--font-heading-style);
+    --font-announcement-weight: var(--font-heading-weight);
+    --font-announcement-text-transform: none;
+    --font-announcement-size: 12px;
+    --font-announcement-letter-spacing: 0em;
+    --font-button-family: var(--font-heading-family);
+    --font-button-style: var(--font-heading-style);
+    --font-button-weight: var(--font-heading-weight);
+    --font-button-text-transform: uppercase;
+    --font-button-size: 15px;
+    --font-button-letter-spacing: .11em;
+    --font-site-header-family: var(--font-body-family);
+    --font-site-header-style: var(--font-body-style);
+    --font-site-header-weight: var(--font-body-weight);
+    --font-site-header-text-transform: uppercase;
+    --font-site-header-size: 12px;
+    --font-site-header-letter-spacing: .2em;
+    --font-navigation-family: var(--font-body-family);
+    --font-navigation-style: var(--font-body-style);
+    --font-navigation-weight: var(--font-body-weight);
+    --font-navigation-text-transform: uppercase;
+    --font-navigation-size: 12px;
+    --font-navigation-line-height: 1.6;
+    --font-navigation-letter-spacing: 0em;
+    --font-badge-family: var(--font-body-family);
+    --font-badge-style: var(--font-body-style);
+    --font-badge-weight: var(--font-body-weight);
+    --font-badge-text-transform: uppercase;
+    --font-badge-size: 11px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%) translateY(-50%);
+    background-color: #0006
+}
+
+body.no-scroll {
+    overflow: hidden
+}
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    position: relative
+}
+
+.close {
+    color: #000 !important;
+    float: right;
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    right: 16px !important;
+    top: 0 !important
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.modal-image img {
+    width: 100%;
+    height: auto
+}
+
+.modal-text {
+    margin-top: 20px;
+    padding: 10px
+}
+
+.modalh5123 {
+    font-size: 1.8rem;
+    margin-bottom: 10px
+}
+
+.modalp12345 {
+    font-size: 10px;
+    margin-bottom: 10px
+}
+
+.modalp2345 {
+    font-size: 10px
+}
+
+.modal-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box
+}
+
+.subscribe-button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 12px !important;
+    margin-bottom: 10px !important;
+    border: none;
+    cursor: pointer
+}
+
+.subscribe-button:hover {
+    background-color: #555
+}
+
+.custom123-modal {
+    width: 100%;
+    max-width: 36%;
+    background-color: #fff;
+    margin: 32px auto;
+    padding: 0;
+    border-radius: 10px;
+    display: none;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #0003;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%) translateY(-50%)
+}
+
+.custom123-modal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+.custom123-modal-image {
+    width: 100%;
+    height: 370px !important
+}
+
+.custom123-modal-content {
+    padding: 10px;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.custom123-modal-content h1 {
+    font-size: 2em;
+    margin-bottom: 5px
+}
+
+.custom123-modal-content p {
+    font-size: 1em;
+    margin-bottom: 20px
+}
+
+.custom123-highlight {
+    font-weight: 700
+}
+
+.custom123-modal-content button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px
+}
+
+.custom123-modal-content button:hover {
+    background-color: #333
+}
+
+.custom123-modal-content .img1 {
+    max-width: 141px;
+    height: 108px;
+    margin: 20px auto 30px
+}
+
+.img2 {
+    height: 20% !important;
+    width: 27% !important;
+    border-radius: 0 !important
+}
+
+.custom123-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer
+}
+
+.custom123-close:hover {
+    color: red
+}
+
+.websiteImg {
+    display: block
+}
+
+.mobileImg,
+.img1 {
+    display: none
+}
+
+.modaltext1 {
+    margin-bottom: 1px !important
+}
+
+.modaltext2 {
+    margin-bottom: 10px
+}
+
+@media (max-width: 768px) {
+    .custom123-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer
+    }
+    .img2 {
+        width: 38% !important
+    }
+    .custom123-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #f5f5f5;
+        border: none;
+        font-size: 14px;
+        padding: 0 4px;
+        cursor: pointer
+    }
+    .img1 {
+        display: none
+    }
+    .modaltext1 {
+        margin-bottom: 1px !important
+    }
+    .modaltext2 {
+        margin-bottom: 10px
+    }
+    .custom123-modal-content:nth-child(2) {
+        font-size: 1em;
+        margin-bottom: 10px
+    }
+    .custom123-modal img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0
+    }
+    .websiteImg {
+        display: none
+    }
+    .mobileImg {
+        display: block
+    }
+    .custom123-modal {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 20px auto
+    }
+    .custom123-modal-image {
+        width: 100%;
+        height: 200px !important
+    }
+    .custom123-modal-content {
+        width: 100%
+    }
+    .custom123-modal img {
+        width: 100%;
+        border-radius: 10px 10px 0 0
+    }
+}
+
+/*# sourceMappingURL=/cdn/shop/t/203/assets/custom.css.map?v=119232688311037138901732076815 */

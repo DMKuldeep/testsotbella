@@ -1,0 +1,78 @@
+/*
+Generated time: June 11, 2024 06:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+    all: unset;
+    display: revert
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+a,
+button {
+    cursor: revert
+}
+
+menu,
+ol,
+ul {
+    list-style: none
+}
+
+img,
+model-viewer,
+video {
+    max-width: 100%
+}
+
+table {
+    border-collapse: collapse
+}
+
+textarea {
+    white-space: revert
+}
+
+meter {
+    -webkit-appearance: revert;
+    appearance: revert
+}
+
+::placeholder {
+    all: unset
+}
+
+:where([hidden]) {
+    display: none !important
+}
+
+:where([contenteditable]) {
+    -moz-user-modify: read-write;
+    -webkit-user-modify: read-write;
+    overflow-wrap: break-word;
+    -webkit-line-break: after-white-space
+}
+
+:where([draggable=true]) {
+    -webkit-user-drag: element
+}
+
+dd,
+dt {
+    display: inline
+}
+
+strong {
+    font-weight: 700;
+    letter-spacing: .1rem
+}
+
+em {
+    font-style: italic
+}

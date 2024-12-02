@@ -1,0 +1,17 @@
+/*
+Generated time: June 11, 2024 06:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+.faq-item {
+    margin-top: calc(var(--gutter) * .4)
+}
+
+.faq-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--primary-borders)
+}
+
+.faq-item__body {
+    padding-top: calc(var(--gutter) * .3);
+    padding-bottom: var(--gutter)
+}

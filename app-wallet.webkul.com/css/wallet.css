@@ -1,0 +1,1793 @@
+.wk_wallet_amount {
+    margin: 5px;
+}
+
+.wk_money {
+    padding: 20px 0px;
+}
+
+/*.add_money{
+  border: 1px solid red;
+  padding: 10px;
+  width: 10%;
+  text-align: center;
+  background-color: red;
+  cursor: pointer;
+  margin-top: 5px;
+}*/
+
+.embedded-app__icon-link>img {
+    width: 220px;
+    height: 40px;
+}
+
+.shipping_amount {
+    display: none;
+}
+
+.wm-loader {
+    color: transparent !important;
+    background-image: url(../image/loader.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+#wk_money_input {
+    margin-bottom: 0px !important;
+    border: none;
+    width: 100%;
+    background-color: #fff !important;
+    outline: none !important;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#wk_add_wallet {
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#wk_pay_wallet {
+    padding: 10px 0px;
+}
+
+#pay_wallet_a {
+    /*background-color: #337863;*/
+    /*padding: 13px 7px;*/
+}
+
+.wk_wallet_setting_label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6F89;
+    margin-bottom: 9px;
+}
+
+.wk_wallet_setting_radio_btn {
+    margin-left: 0px !important;
+}
+
+.wk_ws_store_credit_amt {
+    margin-left: 14px;
+    display: inline-block;
+}
+
+.wk_ws_store_credit {
+    display: inline-block;
+}
+
+#wk_pay_wallet_button {
+    color: white;
+    background-color: #F56951;
+    border-radius: 4px;
+    PADDING: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border: transparent;
+}
+
+#wk_store_credit_button {
+    color: white;
+    background-color: #F56951;
+    border-radius: 4px;
+    PADDING: 10px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border: transparent;
+}
+
+.wk_main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wk_nav {
+    width: 100%;
+    display: inline-block;
+}
+
+.wk_logo {
+    float: left;
+}
+
+.wk_shop_name {
+    float: left;
+    margin-left: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.wallet_faq {
+    float: right;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    color: #777777;
+}
+
+.wk_status_detail {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 35px;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 5px;
+    padding-bottom: 0px !important;
+}
+
+.wk_status {
+    color: #333333;
+    /*margin: 0px 30px;*/
+    /* border-bottom: 3px solid #F56951; */
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.wk_transaction_history {
+    padding: 5px 15px;
+    color: #555;
+    cursor: pointer;
+}
+
+.wk_main_body {
+    width: 100%;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.wk_amount_detail {
+    width: 100%;
+    /* float: left; */
+    display: flex;
+    /*padding-left: 50px;*/
+}
+
+.wk_amount_detail_div {
+    height: 240px;
+    text-align: center;
+    width: 24%;
+    border: 1px solid #dedbdb;
+    margin-right: 3%;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.wk_amount_transaction {
+    width: 100%;
+    /* float: left; */
+    position: relative;
+}
+
+.wk_add_money_main_div {
+    height: 90%;
+}
+
+.wk_amount_transaction {
+    height: 100%;
+}
+
+.wk_paid_amount {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wk_paid_text {
+    font-size: 16px;
+    font-weight: 100;
+    color: #555555;
+}
+
+.wk_bracket {
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #eff1f3;
+    margin-top: 1%;
+}
+
+.wk_left_bracket {
+    font-size: 48px;
+    display: table-cell;
+    font-weight: 300;
+    color: #555555;
+}
+
+.wk_bracket_div {
+    display: inline-block;
+}
+
+.wk_middle {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wk_right_bracket {
+    font-size: 48px;
+    display: table-cell;
+    font-weight: 300;
+    color: #555555;
+}
+
+.wk_transactions {
+    border-bottom: 1px solid;
+    padding-top: 10px;
+    border-bottom: 1px solid #E1E1E1;
+    text-align: left;
+}
+
+.wk_add_amount {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    /* margin: 0px 40px 0px 15px; */
+    border-bottom: 3px solid #F56951;
+    padding: 0 10px 6px 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.wk_with_add_amount {
+    width: 48%;
+}
+
+.wk_wallet_desktop_faq_a {
+    vertical-align: super;
+}
+
+.wk_popup_header {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wk_popup_title {
+    line-height: 1.42857143;
+}
+
+.wk_transfer_popup_footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.wk_transfer_popup_body {
+    padding: 12px 30px;
+}
+
+.wk_popup_question {
+    padding: 15px 0px;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wk_popup_note {
+    text-align: left !important;
+    color: #333;
+}
+
+.wk_transfer_amount {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    padding: 0 10px 6px 10px;
+    cursor: pointer;
+    width: 50%;
+    display: inline-block;
+    border-bottom: none;
+    text-align: center;
+}
+
+.wk_wallet_add_modal-header {
+    height: 63px;
+}
+
+.wk_transfer_amt {
+    display: none;
+    margin-top: 18px;
+    padding: 0% 3%;
+    height: 61%;
+}
+
+.wk_transfer_money {
+    padding: 15px !important;
+    font-size: 14px !important;
+    width: 141px;
+    height: 38px;
+}
+
+.wk_transfer_money_btn {
+    border: 1px solid #D7DFE9;
+}
+
+/* .wk_transfer_money_btn{
+  display: none;
+} */
+
+.wk_transfer_amt label {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #36364A;
+}
+
+.wk_transfer_money {
+    background-color: #F56951;
+    PADDING: 12PX 22px;
+    float: left;
+    border-radius: 2px;
+    margin: 10px 0px 50px 0px;
+    cursor: pointer;
+    color: #fff;
+    /* margin-top: 15px; */
+    float: right;
+    margin: 0px !important;
+    margin-right: 28px !important;
+    margin-top: 8px !important;
+    border-radius: 8px !important;
+}
+
+#wk_add_money_myBtn {
+    cursor: pointer;
+}
+
+.wk_popup_main_div {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+}
+
+.wk_transfer_popup {
+    /*position: absolute;
+  height: 230px;
+  box-shadow: 0px 0px 3px 1px grey;
+  background-color: #fff;
+  content: '';
+  color: red;
+  top: 60px;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  z-index: 1000;*/
+    position: absolute;
+    box-shadow: 0px 0px 3px 1px grey;
+    background-color: #fff;
+    content: '';
+    color: red;
+    top: 24%;
+    left: 35%;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.wk_save_wallet_settings,
+.wk_popup_transfer_cancel,
+.wk_popup_transfer_money {
+    margin: 0px !important;
+    border-radius: 8px !important;
+}
+
+.wk_save_wallet_settings::after,
+.wk_popup_transfer_cancel::after,
+.wk_popup_transfer_money::after {
+    --border-offset: none !important;
+    --border-opacity: none !important;
+}
+
+.wk_save_wallet_settings::before,
+.wk_popup_transfer_cancel::before,
+.wk_popup_transfer_money::before {
+    --border-offset: none !important;
+    --border-opacity: none !important;
+}
+
+.wk_wallet_setting_save {
+    margin-top: 18px;
+}
+
+.wr_has_error {
+    display: none;
+    text-align: left;
+    font-size: 13px;
+    color: red;
+}
+
+.wr_has_money_err {
+    display: none;
+    text-align: left;
+    color: red;
+}
+
+.wk_email_detail {
+    border: 1px solid #D7DFE9;
+    margin-bottom: 5px;
+    width: 100%;
+    outline: none !important;
+    box-shadow: 0px 0px 0px 0px;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #7b7b7b;
+    padding: 10px;
+}
+
+.wk_transfer_money::after {
+    box-shadow: none !important;
+}
+
+.wk_email_detail:focus {
+    border: 1px solid #D7DFE9;
+    margin-bottom: 5px;
+    width: 100%;
+    outline: none !important;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.wk_add_amt {
+    margin-top: 25px;
+    padding: 0% 3%;
+    height: 60%;
+}
+
+.wk_input_currency {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #D7DFE9;
+    border-radius: 4px;
+}
+
+.wk_currency {
+    width: 15%;
+    float: left;
+    border: none;
+    border-right: 1px solid #D7DFE9;
+    text-align: center;
+    padding: 9px 0px;
+    font-size: 14px;
+    background-color: #fff !important;
+    color: #7b7b7b;
+}
+
+#wk_money_input {
+    font-size: 14px;
+    color: #7b7b7b;
+    padding: 14px;
+}
+
+.wk_money_add_btn {
+    border: 1px solid #D7DFE9;
+}
+
+#wk_transaction_detail {
+    width: 100% !important;
+}
+
+/*#wk_transaction_detail th,td{
+  border-left: none !important;
+  border-right: none !important;
+}*/
+
+.wk_amount {
+    float: left;
+    width: 84%;
+    border-left-width: 0px !important;
+}
+
+.wk_money_add_content {
+    position: relative;
+    top: 39%;
+    transform: translateY(-50%);
+}
+
+.wk_money_add_label {
+    font-size: 20px;
+    color: #36364A;
+}
+
+.wk_add_money_btn {
+    background-color: #F56951;
+    PADDING: 12PX 22px;
+    float: left;
+    border-radius: 2px;
+    margin: 10px 0px 50px 0px;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    margin: 0px !important;
+    margin-right: 28px !important;
+    margin-top: 8px !important;
+    border-radius: 8px !important;
+}
+
+.wk_add_money_btn::after {
+    box-shadow: none !important;
+}
+
+.wk_pay_rest_amt {
+    border: none;
+    border-radius: 2px;
+    padding: 3px 9px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #0710bf;
+    color: white !important;
+}
+
+.wk_terms {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+#wk_order_id {
+    color: #F56951;
+}
+
+.selection {
+    height: 40px !important;
+    margin-left: 10px;
+    -webkit-appearance: menulist;
+    padding-right: 30px !important;
+}
+
+.transaction_type {
+    margin-bottom: 40px;
+}
+
+.faq_main td {
+    border-left: none !important;
+    border-right: none !important;
+    padding: 10px !important;
+}
+
+.faq_main th {
+    border: none !important;
+    padding: 10px !important;
+    color: #333;
+    font-weight: 300 !important;
+}
+
+#wk_wallet td {
+    border-left: none !important;
+    border-right: none !important;
+    padding: 10px !important;
+}
+
+#wk_wallet th {
+    border: none !important;
+    padding: 10px !important;
+    color: #333;
+    font-weight: 300 !important;
+}
+
+.wk_paginations {
+    text-align: center;
+}
+
+.wk_pagination>li {
+    background-color: #999;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.wk_pagination {
+    padding: 20px 0px !important;
+    display: inline-flex !important;
+    list-style-type: none;
+}
+
+.wk_status_span {
+    border: none;
+    background-color: #57BB40;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wk_status_span_partially_paid {
+    border: none;
+    background-color: #FFEA8A;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wk_status_span_pending {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wk_status_span_rejected {
+    border: none;
+    background-color: #a1a0a0d4 !important;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wk_action {
+    color: red !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.wk_transaction_data {
+    font-size: 14px;
+    font-weight: 700;
+    color: #999;
+}
+
+#wk_cashback_product_front {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+
+.wk_cashback_product {
+    margin: 20px 0px;
+}
+
+.wk_cashback {
+    /*padding: 20px 40px;*/
+    background-color: black;
+    color: white !important;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#wk_cashback_collection_front {
+    padding: 8px;
+    text-align: center;
+}
+
+#cashback_cart_front {
+    background-color: #f7f7f7;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    float: left;
+}
+
+.wk_get_cashback {
+    margin-bottom: 10px;
+}
+
+.wk_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.wk_dropbtn {
+    background-color: #FFFFFF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.wk_dropdown-content:hover {
+    display: block;
+}
+
+.wk_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 45px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid #E4E4E4;
+    text-align: left;
+    margin-top: -10px;
+    left: -60px;
+}
+
+.wk_dropdown-content a {
+    color: #474748;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.wk_dropdown-content span {
+    color: #474748;
+    padding: 5px 35px 5px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wk_request_refund_div {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.7;
+    display: none;
+}
+
+.wk_refund_request {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 1px 0px #333;
+    left: 30%;
+    width: 40%;
+    z-index: 10000;
+}
+
+.wk_modal-content {
+    text-align: left;
+}
+
+.wk_refund_request_title {
+    font-weight: 400;
+    font-size: 28px;
+    color: #333;
+}
+
+.wk_refund_request_input_div {
+    display: inline-block;
+    width: 100%;
+}
+
+.wk_refund_request_currency {
+    float: left;
+    width: 10%;
+    border: 1px solid;
+    height: 40px;
+    border-radius: 0px;
+    padding: 6px 10px;
+}
+
+.wk_refund_request_input {
+    float: left;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 0px;
+    height: 40px;
+}
+
+.wk_refund_label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+}
+
+.wk_refund_request_footer {
+    padding: 10px 0px;
+}
+
+.wk_refund_request_btn {
+    padding: 5px 15px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    margin: 0px !important;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wk_refund_request_cancle {
+    float: right;
+    padding: 6px 0px;
+    cursor: pointer;
+    color: black;
+}
+
+.wk_refund_requests {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: #555;
+}
+
+.wk_wallet_settings,
+.wk_transfer_history {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: #555;
+}
+
+.wk_wallet_faq {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: #555;
+}
+
+.wm_paginations {
+    text-align: center;
+}
+
+.wm_pagination>li {
+    background-color: #999;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid;
+    list-style: none !important;
+    margin-bottom: 0px !important;
+}
+
+.wm_pagination {
+    padding: 20px 0px !important;
+    display: inline-flex !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.wk_transaction_data_mobile_view {
+    display: none;
+}
+
+.wk_add_amot_cashback {
+    width: 100%;
+    display: inline-block;
+}
+
+.wk_action_all>.wk_btn_pay_rest_amt {
+    color: white;
+    box-shadow: none;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 11px 10px !important;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.wk_transaction_dropbtn {
+    background: none !important;
+    margin: 0px !important;
+}
+
+.wk_action_all button:after {
+    box-shadow: none !important;
+}
+
+.wk_td_pay_rest_amt {
+    padding-top: 11px !important;
+}
+
+.wk_admin_remark {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.wk_pay_wallet_input {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.wk_pay_wallet_label {
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    font-size: 22px;
+    user-select: none;
+}
+
+.wk_pay_wallet_checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #c9c9c9;
+    background-color: #dedbdb;
+}
+
+.wk_pay_wallet_label:hover .wk_pay_wallet_input~.wk_pay_wallet_checkmark {
+    background-color: #c095c0;
+}
+
+.wk_pay_wallet_checkmark {
+    cursor: pointer;
+}
+
+.wk_pay_wallet_label .wk_pay_wallet_checkmark:after {
+    top: -8px;
+    width: 5px;
+    height: 10px;
+    left: 2px;
+    color: white;
+}
+
+.wk_pay_wallet_label .wk_pay_wallet_input:checked~.wk_pay_wallet_checkmark:after {
+    display: block;
+}
+
+.wk_pay_wallet_checkmark:after {
+    content: '✓';
+    position: absolute;
+    display: none;
+}
+
+.wk_checkbox_span {
+    margin-left: 9px;
+    display: inline-block;
+}
+
+.wk_store_label {
+    font-size: 17px !important;
+}
+
+.wk_store_label_span {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.wk_wallet_setting_main_div {
+    margin-bottom: 4%;
+}
+
+#wk_wallet_setting_snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#wk_wallet_setting_snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#wk_wallet {
+    margin-bottom: 21px;
+}
+
+.wk_bracket_img {
+    vertical-align: middle;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@media(min-width: 749px) {
+    [data-title] {
+        position: relative;
+        cursor: help;
+    }
+    [data-title]:hover::before {
+        content: attr(data-title);
+        position: absolute;
+        display: inline-block;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 12px;
+        white-space: normal;
+        top: 144%;
+        width: 176px;
+        padding: 15px;
+        font-family: 'Oxygen', sans-serif !important;
+        border-radius: 3px;
+        word-break: break-all;
+        left: -45px;
+    }
+    [data-title]:hover::after {
+        content: '';
+        position: absolute;
+        left: 0px;
+        display: inline-block;
+        bottom: -8px;
+        color: #fff;
+        border: 8px solid transparent;
+    }
+    /* [data-title] {
+    position: relative;
+    cursor: help;
+  }
+
+
+  [data-title]:hover::before {
+    content: attr(data-title);
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid black;
+    color: #000;
+    width: 225px;
+    padding: 10px;
+    bottom: -120px;
+    text-align: justify;
+  }
+
+  [data-title]:hover::after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    display: inline-block;
+    bottom: -15px;
+    color: #fff;
+    border: 8px solid transparent;	
+    border-bottom: 17px solid #000;
+  } */
+}
+
+/* @media (pointer: coarse), (hover: none) {
+  [data-title] {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+  }
+  [data-title]:hover::before {
+    content: "";
+  }
+  [data-title]:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 90%;
+    left: 0px !important;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid;
+    width: fit-content;
+    padding: 3px;
+    font-size: 15px;
+  }
+
+} */
+
+.wk_status,
+.wk_transaction_history,
+.wk_refund_requests,
+.wk_transfer_history,
+.wk_wallet_settings {
+    display: inline-block;
+}
+
+.wk_wallet_account_span {
+    vertical-align: super;
+}
+
+.wk_wallet_add_modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 10%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.wk_wallet_add_modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding-bottom: 24px;
+    border: 1px solid #888;
+    width: 40%;
+    border-radius: 6px;
+    height: 421px;
+}
+
+.wk_wallet_add_heading {
+    padding-left: 17px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.wk_wallet_add_modal-header {
+    padding-top: 11px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #D7DFE9;
+}
+
+/* The Close Button */
+
+.wk_wallet_add_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 17px;
+}
+
+.wk_wallet_add_close:hover,
+.wk_wallet_add_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wk_wallet_setting_radio_btn {
+    margin-top: 13px !important;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.wk_wallet_setting_radio_btn::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+.wk_wallet_setting_radio_btn:checked::before {
+    transform: scale(1);
+    padding: 4px;
+    margin: 6px;
+}
+
+.wk_wallet_setting_radio_btn:not(:checked) {
+    border: 1.5px solid #D9D9D9 !important;
+}
+
+.wk_wallet_setting_radio_btn:focus {
+    outline-offset: max(2px, 0.15em);
+}
+
+.wk_settings_opt {
+    border: 1px solid #D7DFE9;
+    width: 25%;
+    padding: 19px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.wk_ws_customer_deside_label {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+.wk_wallet_thead {
+    background: #E5E5E5;
+}
+
+.wk_transaction_data_td_mobile_view {
+    vertical-align: middle !important;
+}
+
+.wk_nev_bar {
+    display: inline-block;
+}
+
+.wk_wallet_faq {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.wk_wallet_mobile,
+.wk_wallet_svg_div {
+    display: none;
+}
+
+.wk_wallet_transfer_div_amt {
+    margin-top: 4px;
+}
+
+.wk_wallet_transfer_verify {
+    width: 91%;
+}
+
+@media(max-width: 749px) {
+    .wk_transaction_data_td_mobile_view {
+        display: block !important;
+        border: none !important;
+    }
+    .wk_store_credit_div {
+        margin-bottom: 10px;
+    }
+    .wk_add_amt {
+        height: 70%;
+    }
+    .wk_wallet_add_modal-header {
+        height: 44px;
+    }
+    .wk_popup_transfer_cancel,
+    .wk_popup_transfer_money {
+        width: 100%;
+    }
+    .wk_popup_transfer_cancel {
+        margin-top: 2px !important;
+    }
+    .wk_add_amt {
+        height: 70%;
+    }
+    .wk_wallet_add_modal-header {
+        height: 44px;
+    }
+    .wk_popup_transfer_cancel,
+    .wk_popup_transfer_money {
+        width: 100%;
+    }
+    .wk_popup_transfer_cancel {
+        margin-top: 2px !important;
+    }
+    [data-title] {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+    }
+    [data-title]:hover::before {
+        content: attr(data-title);
+        position: absolute;
+        top: 157%;
+        left: -99px !important;
+        color: white;
+        height: fit-content;
+        bottom: 0px !important;
+        width: fit-content;
+        padding: 11px;
+        font-size: 15px;
+        width: 159px;
+        font-family: 'Oxygen', sans-serif !important;
+        border-radius: 3px;
+        word-break: break-all;
+    }
+    [data-title]:hover::after {
+        content: '';
+        position: absolute;
+        left: 1px;
+        display: inline-block;
+        bottom: -8px;
+        color: #fff;
+        border: 8px solid transparent;
+    }
+    .wk_transfer_popup {
+        margin-right: 5%;
+        top: 156px;
+        left: 10%;
+        width: 79%;
+    }
+    .wk_amount_detail {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .wk_amount_transaction {
+        width: 100%;
+    }
+    .wk_paid_amount {
+        width: 100%;
+        font-size: 15px;
+    }
+    .wk_paid_text {
+        font-size: 10px;
+    }
+    .wk_middle {
+        font-size: 10px;
+    }
+    .wk_transactions,
+    .wk_transfer_amount {
+        font-size: 14px !important;
+    }
+    .wk_email_detail {
+        height: 27px;
+        font-size: 11px;
+    }
+    #wk_money_input {
+        height: 18px;
+        font-size: 11px;
+        vertical-align: middle;
+    }
+    .wk_transfer_amt label {
+        font-size: 14px;
+    }
+    .wk_currency {
+        font-size: 12px;
+        padding: 5px 0px;
+        height: 27px;
+    }
+    .wk_transfer_money {
+        margin-top: 1% !important;
+        margin-right: 0px !important;
+        width: 100%;
+    }
+    .wk_money_add_label {
+        font-size: 14px;
+    }
+    .wk_wallet_transfer_verify {
+        width: 100%;
+    }
+    .wk_transaction_data_mobile_view {
+        float: left;
+        display: block;
+        font-weight: 700;
+    }
+    .wk_status_span {
+        display: inline-block;
+    }
+    .wk_mobile_view_btn {
+        margin-top: 0 !important;
+    }
+    .wk_view_btn_td {
+        margin-top: 3%;
+    }
+    .wk_view_order_td {
+        margin-top: 4%;
+    }
+    .wk_refund_request_title {
+        font-size: 21px;
+    }
+    .wk_refund_request_currency {
+        width: 18%;
+        height: 31px;
+        padding: 0px 13px;
+    }
+    .wk_refund_request_input {
+        width: 76%;
+        height: 31px;
+    }
+    .wk_refund_request {
+        left: 13%;
+    }
+    #refund_request {
+        width: 75%;
+    }
+    .wk_refund_label,
+    .wk_refund_request_info {
+        font-size: 18px;
+    }
+    #wk_transaction_detail>thead {
+        display: none !important;
+    }
+    .wk_transaction_data_td_mobile_view {
+        text-align: left !important;
+    }
+    .wk_transaction_data_mobile_view {
+        width: 50% !important;
+    }
+    .wk_status_span_pending,
+    .wk_status_span_partially_paid {
+        display: inline !important;
+    }
+    .wk_pay_rest_amt_span {
+        padding-top: 14px;
+    }
+    .wk_div_pay_rest_amt {
+        width: 35%;
+    }
+    .wk_settings_opt {
+        width: 100%;
+    }
+    .wk_ws_store_credit_amt {
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+    .wk_amount_detail {
+        display: block;
+    }
+    .wk_amount_detail_div {
+        width: 100%;
+        height: 6%;
+        text-align: justify;
+        display: flex;
+    }
+    .wk_wallet_amount_status_img {
+        display: inline-block;
+        text-align: justify;
+    }
+    .wk_wallet_status_div {
+        padding-top: 7px;
+    }
+    .wk_wallet_balance {
+        margin-bottom: 10px;
+    }
+    wk_wallet_transfer_verify .wk_bracket {
+        display: flex;
+        flex-direction: row;
+    }
+    .wk_bracket_div {
+        margin-right: 6px;
+        margin-top: 5px;
+    }
+    .wk_add_money_btn {
+        margin-top: 5px !important;
+        border-radius: 0px !important;
+    }
+    .wk_transfer_money {
+        border-radius: 0px !important;
+    }
+    .wk_nev_bar_inner_div {
+        width: 32%;
+        vertical-align: top;
+        text-align: center;
+    }
+    .wk_wallet_settings,
+    .wk_transfer_history {
+        padding: 0px;
+    }
+    .wk_wallet_active,
+    .active {
+        border: none;
+    }
+    .wk_refund_requests,
+    .wk_transaction_history {
+        padding: 5px 0px;
+    }
+    .wk_wallet_svg_div {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .wk_wallet_desktop {
+        display: none;
+    }
+    .wk_wallet_mobile {
+        display: block;
+    }
+    .wk_wallet_active,
+    .active {
+        border-bottom: none;
+    }
+    .wk_nev_bar_img {
+        display: none;
+    }
+    .wk_wallet_faq_div {
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+    }
+    .wk_wallet_faq_a {
+        text-align: center;
+    }
+    .wk_transfer_amt {
+        height: 69%;
+    }
+    .wk_wallet_add_modal-content {
+        width: 80%;
+        height: 344px;
+        position: relative;
+        top: 16% !important;
+    }
+    .wk_with_add_amount {
+        width: 47%;
+    }
+    .wk_add_money_btn {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+    .wk_wallet_add_close,
+    .wk_wallet_add_heading {
+        font-size: 18px;
+    }
+    .wk_add_money_main_div {
+        height: 76%;
+    }
+    .wk_add_amount {
+        margin: 0px 4px 0px 0px;
+        font-size: 12px;
+    }
+    .wk_wallet_mobile_view_add_money_main_div {
+        height: 80%;
+    }
+}
+
+@media (max-width: 470px) {
+    .wk_transaction_data_td_mobile_view {
+        display: block !important;
+    }
+    .wk_store_credit_div {
+        margin-bottom: 10px;
+    }
+    .wk_refund_request_input {
+        width: 71%;
+    }
+    .wk_refund_request_currency {
+        padding: 0px 5px;
+        font-size: 15px;
+        width: 26%;
+    }
+    .wk_refund_request_btn {
+        font-size: 12px !important;
+        padding: 1% !important;
+    }
+    .wk_refund_label,
+    .wk_refund_request_info {
+        font-size: 14px;
+    }
+    .wk_paid_amount {
+        font-size: 15px;
+    }
+    .wk_status_detail {
+        font-size: 11px;
+    }
+    .wk_add_amount {
+        margin: 0px 4px 0px 0px;
+        font-size: 12px;
+    }
+    .wk_bracket {
+        margin-left: 0;
+    }
+    .wk_status_detail>span {
+        padding: 0px 5px;
+    }
+    .wk_add_money_btn,
+    .wk_transfer_money {
+        font-size: 10px;
+    }
+    .wk_currency {
+        width: 20%;
+        font-size: 11px;
+    }
+    .wk_amount {
+        width: 79%;
+    }
+    .wk_main_body {
+        margin-top: 30px;
+    }
+    .wk_main_pending_orders {
+        margin-top: 30px;
+    }
+    .wk_table_structure {
+        width: 100%;
+        overflow: scroll;
+    }
+    .wk_wallet_add_modal-content {
+        width: 80%;
+        height: 344px;
+        position: relative;
+        top: 18% !important;
+    }
+    .wk_with_add_amount {
+        width: 47%;
+    }
+    .wk_add_money_btn {
+        width: 100%;
+        margin-right: 0px !important;
+    }
+    .wk_wallet_add_close,
+    .wk_wallet_add_heading {
+        font-size: 18px;
+    }
+    .wk_add_money_main_div {
+        height: 76%;
+    }
+    .wk_nev_bar {
+        display: block;
+        margin-top: 4px;
+    }
+    .wk_nev_bar_img {
+        display: block;
+        margin: auto;
+    }
+    .wk_nev_bar_inner_div {
+        width: 32%;
+        vertical-align: top;
+        text-align: center;
+    }
+    .wk_wallet_settings,
+    .wk_transfer_history {
+        padding: 0px;
+    }
+    .wk_wallet_active,
+    .active {
+        border: none;
+    }
+    .wk_refund_requests,
+    .wk_transaction_history {
+        padding: 5px 0px;
+    }
+    .wk_settings_opt {
+        width: 100%;
+    }
+    .wk_ws_store_credit_amt {
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+    .wk_amount_detail {
+        display: block;
+    }
+    .wk_amount_detail_div {
+        width: 100%;
+        height: 6%;
+        text-align: justify;
+        display: flex;
+    }
+    .wk_wallet_amount_status_img {
+        display: inline-block;
+        text-align: justify;
+    }
+    .wk_wallet_status_div {
+        padding-top: 7px;
+    }
+    .wk_wallet_balance {
+        margin-bottom: 10px;
+    }
+    .wk_bracket {
+        display: flex;
+        flex-direction: row;
+    }
+    .wk_bracket_div {
+        margin-right: 6px;
+        margin-top: 5px;
+    }
+    .wk_add_money_btn {
+        margin-top: 5px !important;
+        border-radius: 0px !important;
+    }
+    .wk_transfer_money {
+        border-radius: 0px !important;
+    }
+    .wk_wallet_svg_div {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .wk_wallet_desktop {
+        display: none;
+    }
+    .wk_wallet_mobile {
+        display: block;
+    }
+    .wk_wallet_active,
+    .active {
+        border-bottom: none;
+    }
+    .wk_nev_bar_img {
+        display: none;
+    }
+    .wk_wallet_faq_div {
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+    }
+    .wk_wallet_faq_a {
+        text-align: center;
+    }
+    .wk_wallet_mobile_view_add_money_main_div {
+        height: 80%;
+    }
+    .wk_wallet_add_modal-content {
+        top: 24% !important;
+    }
+}

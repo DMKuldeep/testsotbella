@@ -1,0 +1,382 @@
+/*
+Generated time: June 11, 2024 06:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 1 !important;
+    z-index: 70;
+    font-size: var(--font-navigation-size);
+    font-family: var(--font-navigation-family);
+    font-style: var(--font-navigation-style);
+    font-weight: var(--font-navigation-weight);
+    text-transform: var(--font-navigation-text-transform);
+    letter-spacing: var(--font-navigation-letter-spacing);
+    display: block !important
+}
+
+.drawer-panel,
+html.js .drawer-submenu__panel {
+    --drawer-animation: all 0.3s ease-in-out;
+    --drawer-padding: 24px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset: 0;
+    width: var(--drawer-size);
+    background-color: var(--drawers-background);
+    color: var(--drawers-foreground);
+    opacity: 0;
+    z-index: 10;
+    transform: translateX(var(--drawer-position))
+}
+
+html.no-js .drawer-panel {
+    --drawer-animation: transform 0.3s ease-in-out
+}
+
+html.js .drawer-submenu__panel {
+    --drawer-animation: all 0.3s ease-in-out;
+    background-color: var(--drawers-background)
+}
+
+.drawer-panel:not(.slide-from-right),
+html.js .drawer-submenu__panel {
+    --drawer-original-position: -100%;
+    --drawer-position: var(--drawer-original-position)
+}
+
+.drawer-panel.slide-from-right {
+    --drawer-original-position: 100vw;
+    --drawer-position: var(--drawer-original-position)
+}
+
+html.js .initialized .drawer-panel,
+html.js .initialized .drawer-submenu__panel,
+html.no-js .drawer-panel {
+    transition: var(--drawer-animation)
+}
+
+html.js .drawer.is-open,
+html.no-js .drawer:target {
+    opacity: 1 !important;
+    visibility: visible
+}
+
+html.js .drawer.is-open>.page-overlay,
+html.no-js .drawer:target>.page-overlay {
+    z-index: 1;
+    opacity: 1
+}
+
+html.js .drawer.is-open>.page-overlay {
+    cursor: var(--hover-close-url) 18 18, auto
+}
+
+html.js .drawer-submenu__panel,
+html.js .drawer.is-open .drawer-panel:not(.slide-from-right),
+html.no-js .drawer:target .drawer-panel:not(.slide-from-right) {
+    --drawer-position: 0;
+    opacity: 1
+}
+
+html.js .drawer.is-open .drawer-panel.slide-from-right,
+html.no-js .drawer:target .drawer-panel.slide-from-right {
+    --drawer-position: calc(100vw - var(--drawer-size));
+    opacity: 1
+}
+
+.drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(var(--drawer-padding) * .6) var(--drawer-padding);
+    min-height: 80px
+}
+
+,
+.drawer-header .close,
+.drawer-header .close--submenu {
+    display: grid;
+    place-content: center;
+    min-height: 4.8rem;
+    min-width: 4.8rem;
+    cursor: pointer
+}
+
+.drawer-menu__item.--drilldown {
+    overflow: unset
+}
+
+.drawer-content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 25vh
+}
+
+.drawer-footer {
+    padding: var(--drawer-padding);
+    align-self: flex-end;
+    width: 100%
+}
+
+html.js .drawer-submenu__panel-container {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: var(--drawer-size);
+    display: flex;
+    flex-direction: row;
+    width: var(--drawer-size)
+}
+
+.drawer-menu__item,
+.drawer-submenu__item,
+.drawer-subsubmenu__item {
+    display: block
+}
+
+.drawer-menu__item.--drilldown .drawer-menu__item-label,
+.drawer-menu__item:not(.--drilldown),
+.drawer-submenu__item {
+    padding: calc(var(--drawer-padding) * .4) calc(var(--drawer-padding)*1.2);
+    font-size: max(var(--font-navigation-size))
+}
+
+.drawer-subsubmenu__item {
+    padding: calc(var(--drawer-padding) * .3) calc(var(--drawer-padding)*1.2);
+    font-size: max(calc(var(--font-navigation-size)*.8))
+}
+
+.drawer-subsubmenu__item:before {
+    content: '\2022';
+    margin-right: 8px
+}
+
+.drawer-subsubmenu__item+.drawer-submenu__item {
+    margin-top: calc(var(--drawer-padding) * .8)
+}
+
+.drawer-menu__item-label {
+    transition: all .3s
+}
+
+.drawer-submenu__item.localization-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px
+}
+
+.drawer-menu .country-flag {
+    box-shadow: 0 0 0 var(--icon-stroke-px) var(--drawers-foreground)
+}
+
+.drawer-menu__item-label span {
+    position: relative
+}
+
+.drawer-menu__item-label span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: all .3s ease-out;
+    background-color: var(--drawers-foreground)
+}
+
+.is-open>.drawer-menu__item-label span::before {
+    width: 100%
+}
+
+.drawer-panel.has-open-submenu {
+    background-color: var(--drawers-background-darken)
+}
+
+.drawer-menu-nav :not(.is-open) .drawer-menu__item-label,
+.drawer-menu-nav>a.drawer-menu__item {
+    transition: all .3s
+}
+
+.has-open-submenu .drawer-menu-nav :not(.is-open) .drawer-menu__item-label,
+.has-open-submenu .drawer-menu-nav>a.drawer-menu__item {
+    opacity: .35
+}
+
+.drawer-menu-nav :not(.is-open) .drawer-menu__item-label:hover,
+.drawer-menu-nav>a.drawer-menu__item:hover {
+    opacity: 1
+}
+
+html.js .--emphasize {
+    font-weight: 700
+}
+
+html.js [data-accordion-item].is-open .drawer-submenu__panel,
+html.no-js .drawer:target [data-accordion-item]>input:checked~[data-accordion-panel] .drawer-submenu__panel {
+    --drawer-position: 0 !important;
+    z-index: 9;
+    opacity: 1
+}
+
+html.no-js .drawer-submenu__panel-container,
+html.no-js .drawer-subsubmenu__panel {
+    padding-left: 1rem !important
+}
+
+.drawer-media__close {
+    display: none
+}
+
+@media only screen and (max-width:1023px) {
+    .drawer-clip {
+        display: none
+    }
+    .drawer-clip rect {
+        transform: translateY(-100%)
+    }
+    .drawer-panel {
+        overflow-x: hidden
+    }
+    html.js .drawer-submenu__panel {
+        --drawer-position: var(--drawer-size) !important
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .drawer {
+        --drawer-size: min(40vw, 400px)
+    }
+    .drawer.drawer--wide {
+        --drawer-size: min(45vw, 480px)
+    }
+    .drawer-clip {
+        position: fixed;
+        top: 0;
+        left: var(--drawer-size)
+    }
+    .drawer-media__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        padding: 2.4rem 4.8rem;
+        display: grid;
+        opacity: 0
+    }
+    .drawer-panel,
+    html.js .drawer-submenu__panel {
+        --drawer-padding: 30px
+    }
+    html.js .drawer-panel .drawer-submenu__panel {
+        --drawer-size: min(40vw, 400px);
+        --drawer-position: calc(var(--drawer-size) * 0)
+    }
+    html.js .drawer-submenu__panel-media {
+        width: calc(100% - var(--drawer-size));
+        left: var(--drawer-size);
+        max-height: 100vh;
+        opacity: 0
+    }
+    html.js .drawer-submenu__panel-container {
+        justify-content: flex-end;
+        overflow: hidden
+    }
+    html.js .drawer-panel .--content .drawer-submenu__panel,
+    html.js .drawer-submenu__panel-container.--content {
+        width: calc(100vw - var(--drawer-size));
+        max-width: 2000px;
+        --drawer-position: calc(-100vw + var(--drawer-size))
+    }
+    html.js .drawer-submenu__panel-media .media {
+        height: 100%;
+        width: 100%;
+        opacity: 0
+    }
+    html.js [data-accordion-item]:not(.is-open) .drawer-submenu__panel-media .media {
+        transition: none
+    }
+    html.js [data-accordion-item].is-open .drawer-submenu__panel-media {
+        opacity: 1
+    }
+    html.js [data-accordion-item].is-open .drawer-submenu__panel-media .media {
+        --transition: opacity 0.8s linear 0.416s;
+        transition: var(--transition);
+        opacity: 1
+    }
+    html.js [data-accordion-item].is-open .drawer-media__close {
+        --transition: opacity 0.416s ease-in-out 0.416s;
+        transition: var(--transition);
+        opacity: 1
+    }
+    html.js .drawer-panel.has-open-submenu [data-accordion-item].is-open .drawer-submenu__panel-media .media {
+        --transition: opacity 0.6s linear
+    }
+    html.js .drawer-panel.has-open-submenu [data-accordion-item].is-open .drawer-media__close {
+        --transition: opacity 0.416s ease-in-out
+    }
+    html.js [data-accordion-item].is-open .drawer-submenu__panel,
+    html.no-js .drawer:target [data-accordion-item]>input:checked~[data-accordion-panel] .drawer-submenu__panel {
+        --drawer-position: var(--drawer-size) !important;
+        transition: var(--drawer-animation)
+    }
+    html.js .drawer-submenu__panel-container.--has-media {
+        width: calc(100vw - var(--drawer-size))
+    }
+}
+
+.--with-padding,
+.drawer-banner-panel,
+.drawer-cart__content {
+    padding: var(--drawer-padding)
+}
+
+.drawer-menu__divider {
+    border-top: 1px solid var(--drawers-borders);
+    width: calc(100% - var(--drawer-padding)*3.2);
+    margin: calc(var(--drawer-padding)*1.2);
+    position: relative
+}
+
+.menu-banner {
+    position: relative
+}
+
+.menu-banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--gutter)
+}
+
+.menu-divider hr {
+    border-top: 1px solid var(--drawers-borders);
+    width: 100%
+}
+
+.menu-divider hr+* {
+    margin-top: var(--gutter)
+}
+
+drawer-menu .drawer-menu__contents {
+    height: 100%
+}
+
+drawer-menu .drawer-submenu__panel {
+    left: 0
+}
